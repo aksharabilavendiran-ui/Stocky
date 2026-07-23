@@ -1,6 +1,5 @@
 # Stockly — Simple Inventory Management System
-
-A professional, full-stack Inventory Management System built as **Assignment 12 (Backend Module)** for **Entri Elevate — Full Stack Development**.
+Assignment 12 **Entri Elevate FSD**.
 
 > 🇮🇳 Crafted in India by **Ms. Akshara B**, a Sophomore.
 
@@ -140,5 +139,3 @@ Custom OKLCH-based **light blue & white** palette defined in `src/styles.css`:
 ## 📄 License
 
 © 2026 Stockly. Crafted in India by **Ms. Akshara B**, a Sophomore.
-
-Built with ❤️ using [Lovable](https://lovable.dev).

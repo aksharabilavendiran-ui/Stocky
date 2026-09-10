@@ -1,0 +1,1 @@
+../../routes/_authenticated.tsx

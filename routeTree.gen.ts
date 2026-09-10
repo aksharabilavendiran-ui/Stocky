@@ -8,17 +8,17 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from './routes/__root'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as AuthRouteImport } from './routes/auth'
-import { Route as AuthenticatedRouteImport } from './routes/_authenticated'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as AuthenticatedSuppliersRouteImport } from './routes/_authenticated/suppliers'
-import { Route as AuthenticatedStoresRouteImport } from './routes/_authenticated/stores'
-import { Route as AuthenticatedProductsRouteImport } from './routes/_authenticated/products'
-import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
-import { Route as AuthenticatedCategoriesRouteImport } from './routes/_authenticated/categories'
-import { Route as AuthenticatedBrandsRouteImport } from './routes/_authenticated/brands'
+import { Route as rootRouteImport } from './__root'
+import { Route as SitemapDotxmlRouteImport } from './sitemap[.]xml'
+import { Route as AuthRouteImport } from './auth'
+import { Route as AuthenticatedRouteImport } from './_authenticated'
+import { Route as IndexRouteImport } from './index'
+import { Route as AuthenticatedSuppliersRouteImport } from './suppliers'
+import { Route as AuthenticatedStoresRouteImport } from './stores'
+import { Route as AuthenticatedProductsRouteImport } from './products'
+import { Route as AuthenticatedDashboardRouteImport } from './dashboard'
+import { Route as AuthenticatedCategoriesRouteImport } from './categories'
+import { Route as AuthenticatedBrandsRouteImport } from './brands'
 
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',

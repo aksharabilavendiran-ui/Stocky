@@ -1,0 +1,1 @@
+../../routes/__root.tsx
